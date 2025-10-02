@@ -69,14 +69,6 @@ document.getElementById('print-pdf').addEventListener('click', function() {
 });
 
 
-// Gerekli elementleri seçiyoruz
-const tocToggle = document.getElementById('toc-toggle');
-const tocKutu = document.getElementById('toc-kutu'); // Kapatılacak kutu
-
-// Başlığa tıklama dinleyicisi ekliyoruz
-if (tocToggle && tocKutu) {
-    tocToggle.addEventListener('click', function() {
-        // 'kapali' sınıfını ekleyip çıkar. Bu, kutunun yüksekliğini düşürecek/yükseltecektir.
-        tocKutu.classList.toggle('kapali');
-    });
-}
+document.querySelector(".icindekiler-kutusu h3").addEventListener("click", function() {
+document.querySelector(".icindekiler-kutusu").classList.toggle("kapali");
+});

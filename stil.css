@@ -198,10 +198,10 @@ footer {
     transition: background-color 0.3s ease, box-shadow 0.3s ease, height 0.4s ease-in-out;
 }
 .icindekiler-kutusu.kapali {
-    height: 28px;
+  max-height: 28px;
 }
 
-.icindekiler-kutusu h3, .hizli-eylemler h4 {
+.icindekiler-kutusu h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
     color: #1a1a1a;
