@@ -270,19 +270,19 @@ body.dark-mode .hizli-eylemler h4 {
     .ana-icerik-konteyneri {
         flex-direction: column-reverse;
         padding-top: 80px;
+        max-width: unset;
     }
 
     .hikaye-konteyneri {
         min-width: unset; /* Minimum genişliği kaldır */
-        margin: 20px auto;
+        margin: 0 auto;
         padding: 20px;
-        width: calc(100% - 40px); /* Kenar boşluklarını düşerek genişliği ayarlar */
+        width: calc(100% - 50px); /* Kenar boşluklarını düşerek genişliği ayarlar */
     }
 
     .yan-menu {
         position: static; /* Sabit kalmayı kaldır */
-        width: 100%;
-        max-width: 800px;
+        width: 95vw;
         margin: -35px auto; /* Ortalar */
         padding-top: 0;
     }
